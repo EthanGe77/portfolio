@@ -48,6 +48,7 @@ export const Header = () => {
           className="downlad-btn"
           href="https://drive.google.com/file/d/1Du6-72YmZQRV6OtX4cR0IlwzR44A4r8a/view?usp=sharing"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Download CV
         </a>
