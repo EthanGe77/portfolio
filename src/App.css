@@ -223,7 +223,7 @@ header .downlad-btn:hover {
   position: relative;
   background-size: cover;
   z-index: 1;
-  background-image: url(/background.jfif);
+  background-image: url(./images/background.jfif);
 }
 
 .intro-section:before {

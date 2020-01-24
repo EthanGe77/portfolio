@@ -1,4 +1,5 @@
-import React from "react";
+import React from "react"
+import cover from "../images/cover.jpg"
 
 export const Introduction = () => {
   return (
@@ -9,7 +10,7 @@ export const Introduction = () => {
           <div className="col-md-10 col-lg-8">
             <div className="intro">
               <div className="profile-img">
-                <img src="/cover.jpg" alt="" />
+                <img src={cover} alt="" />
               </div>
               <h2>
                 <b>Ethan Ge</b>
@@ -57,5 +58,5 @@ export const Introduction = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
